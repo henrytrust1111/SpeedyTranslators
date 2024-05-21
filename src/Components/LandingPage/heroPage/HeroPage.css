@@ -1,0 +1,56 @@
+.HeroPage__container{
+    height: 70vh;
+    width: 100%;
+    margin-top: 115px;
+    background-image: url("https://translang.axiomthemes.com/wp-content/uploads/2017/03/sub_header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    font-family: Roboto;
+}
+
+.hero__text{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 65px;
+}
+
+.hero__btn{
+    height: 70px;
+    /* width: 1px; */
+    display: flex;
+    align-items: center;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    background-color: #f14f4a;
+    color: #fff;
+    font-weight: 900;
+    padding: 0px 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.hero__btn:hover{
+    background-color: #B4CF5C;
+}
+
+@media screen and (max-width: 700px) {
+    .HeroPage__container{
+        height: max-content;
+        margin-top: 68px;
+        padding-block: 40px;
+    }
+    .hero__text{
+        font-size: 35px;
+        line-height: 45px;
+    }
+}

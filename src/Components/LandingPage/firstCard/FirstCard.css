@@ -1,0 +1,181 @@
+.card__container {
+  width: 90%;
+  height: max-content;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  /* padding: 50px; */
+}
+
+.card__container--left {
+  width: 50%;
+  height: 50vh;
+  /* background-color: yellow; */
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.card__container--left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__container--right {
+  width: 50%;
+  height: max-content;
+  /* height: 60vh; */
+  /* align-self: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: purple; */
+}
+
+.eating__for__impact {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  width: 90%;
+  color: #4a373d;
+  letter-spacing: 0.09em;
+  font-family: inter;
+}
+
+.small__content {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33.4286px;
+  width: 90%;
+  color: rgb(126, 134, 140);
+  font-family: Roboto, sans-serif;
+}
+
+.tips {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 5px;
+  /* background-color: red; */
+}
+
+.tips__content--container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tips__content--container img {
+  width: 24px;
+  height: 24px;
+}
+
+.tips__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33.4286px;
+  color: rgb(47, 55, 61);
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+}
+
+.card2{
+    gap: 40px;
+}
+
+.card2__img--holder {
+  height: 70vh;
+  width: 40%;
+}
+
+.gap--10px {
+  width: 60%;
+  /* background-color: rebeccapurple; */
+}
+
+.fitness__strength {
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  line-height: 16.32px;
+  font-weight: 600;
+  color: rgb(244, 90, 42);
+  /* background-color: aqua; */
+  align-self: flex-start;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+.aligned__self--start {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.gap--10px {
+  gap: 10px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .card__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 15px;
+    margin-top: 40px;
+  }
+
+  .card__container--left {
+    width: 90%;
+    height: 50vh;
+  }
+
+  .card__container--right {
+    width: 90%;
+  }
+
+  .eating__for__impact {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    width: 100%;
+    letter-spacing: 0.01em;
+  }
+
+  .small__content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 100%;
+  }
+
+  .tips {
+    width: 100%;
+    gap: 10px;
+    /* background-color: red; */
+  }
+
+  .tips__text {
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 27px;
+  }
+
+  .card2__img--holder{
+    height: 30vh;
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .card2 {
+    flex-direction: column-reverse;
+  }
+
+  .fitness__strength {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,151 @@
+.contactUs {
+    width: 100%;
+    height: max-content;
+    margin-top: 115px;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .hero-section {
+    height: 60vh;
+    width: 100%;
+    background-image: url("https://prowess.qodeinteractive.com/wp-content/uploads/2018/02/h5-parallax-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero__overlay--text{
+      color: #fff;
+      font-family: poppins;
+      font-size: 70px;
+      font-weight: 600;
+      text-align: center;
+  }
+  
+  .contact__info{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+  }
+  
+  .address__title{
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(41, 40, 45);
+  }
+  
+  .address__content{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 27px;
+      color: rgb(156, 156, 156);
+  }
+  
+  .other__info{
+      width: 100%;
+      display: flex;
+  }
+  
+  .other__info--content{
+      width: 50%;
+  }
+  
+  .contactUs__small--content{
+      width: 90%;
+      margin-top: 20px;
+  }
+  
+  .small__content--text{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 27px;
+      color: rgb(156, 156, 156);
+  }
+  
+  .contact-form{
+      width: 90%;
+  }
+  
+  .input-text{
+      width: 100%;
+      height: 50px;
+      background-color: #f7f7f7;
+      border: none;
+      outline: none;
+      padding-left: 10px;
+      margin-top: 20px;
+  }
+  
+  .input-text::placeholder{
+      font-size: 15px;
+      color: rgb(49, 54, 70);
+      font-weight: 400;
+  }
+  
+  .textarea{
+      width: 100%;
+      height: 150px;
+      background-color: #f7f7f7;
+      border: none;
+      outline: none;
+      padding: 10px;
+      margin-top: 20px;
+  }
+  
+  .textarea::placeholder{
+      font-size: 15px;
+      color: rgb(49, 54, 70);
+      font-weight: 400;
+  }
+  
+  .contact__submit--btn{
+      margin-top: 20px;
+  }
+  
+  .submit-btn{
+      width: 100px;
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      background-color: #f14f4a;
+      color: #fff;
+      font-size: 17px;
+  }
+
+  .submit-btn:hover{
+    background-color: #b4cf5c;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width:700px) {
+    .contactUs{
+        margin-top: 68px;
+    }
+      .hero-section {
+          height: 40vh;
+      }
+  
+      .hero__overlay--text{
+          font-size: 50px;
+      }
+  
+      .other__info{
+          flex-direction: column;
+          gap: 15px;
+      }
+      
+      .other__info--content{
+          width: 100%;
+      }
+  }
+  

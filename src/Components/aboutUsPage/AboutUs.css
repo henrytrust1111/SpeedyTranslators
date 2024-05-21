@@ -1,0 +1,148 @@
+.aboutUs {
+  width: 100%;
+  height: max-content;
+  margin-top: 115px;
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.aboutHero-section {
+  height: 60vh;
+  width: 100%;
+  background-image: url("https://translang.axiomthemes.com/wp-content/uploads/2017/03/sub_header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutHero__overlay--text {
+  color: #fff;
+  font-family: poppins;
+  font-size: 70px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card__container {
+    max-width: 90%;
+    height: max-content;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .card__container--left {
+    width: 50%;
+    height: 60vh;
+    /* background-color: yellow; */
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .card__container--left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card__container--right {
+    width: 50%;
+    height: max-content;
+    /* height: 60vh; */
+    /* align-self: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: purple; */
+  }
+  
+  .eating__for__impact {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 90%;
+    color: #201f2f;
+    font-family: inter;
+  }
+  
+  .small__content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.4286px;
+    width: 90%;
+    color: rgb(126, 134, 140);
+    font-family: Roboto, sans-serif;
+  }
+
+  .aboutbtn{
+    width: 150px;
+    height: 52px;
+    border: none;
+    background-color: #f14f4a;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .aboutbtn:hover{
+    background-color: #b4cf5c;
+  }
+
+@media screen and (max-width: 700px) {
+  .aboutUs {
+    margin-top: 68px;
+  }
+  .aboutHero-section {
+    height: 40vh;
+  }
+
+  .aboutHero__overlay--text {
+    font-size: 50px;
+  }
+
+  .card__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .card__container--left {
+    width: 90%;
+    height: 50vh;
+  }
+
+  .card__container--right {
+    width: 90%;
+  }
+
+  .eating__for__impact {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    width: 100%;
+  }
+
+  .small__content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 100%;
+  }
+}
